@@ -8,7 +8,7 @@ pipeline {
             steps {
                 echo 'Pulling...';
                 git branch: 'master',
-                url : 'git@github.com:RatovosonPascal/amsdata.git';
+                url : 'https://github.com/RatovosonPascal/amsdata.git';
             }
 
             post {
